@@ -1,1 +1,2 @@
+print("Início da aula")
 
