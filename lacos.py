@@ -1,3 +1,4 @@
+   
 print("Início da aula")
 
 #1exercicio : Código de faixas etárias
@@ -53,4 +54,15 @@ idoso = input("Você é idoso? (sim/não): ")
 if estudante == "sim" or idoso == "sim" :
     print("Você ganhou desconto!")
 else :
-    print("Você não tem direito a desconto.")    
+    print("Você não tem direito a desconto.") 
+
+
+#5exercício
+condicao_fisica = input("Condição física é boa?(sim/não) :  ")
+atestado_medico = input("Tem atestado médico?(sim/não) : ")
+idade = int(input("Qual sua idade?"))
+
+if idade >= 18 and (condicao_fisica or atestado_medico == "sim"):
+    print("Você está aprovado!")
+else :
+    print("Você está reprovado.")
