@@ -44,3 +44,13 @@ if idade >= 18 and cnh == "sim" and toxicológico == "negativo" :
     print("Você tem permissão para dirigir.")
 else :
     print("Você não tem permissão para dirigir.")
+
+#4exercicio: or
+
+estudante = input("Você é estudante? (sim/não):")
+idoso = input("Você é idoso? (sim/não): ")
+
+if estudante == "sim" or idoso == "sim" :
+    print("Você ganhou desconto!")
+else :
+    print("Você não tem direito a desconto.")    
